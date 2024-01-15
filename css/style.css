@@ -289,3 +289,141 @@ footer .footer_copy {
     font-size: 12px;
     margin-top: 30px;
 }
+
+.features {
+    margin-top: 20px;
+}
+
+.features span{
+    font-size: 15px;
+}
+
+.banner_feature {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.1);
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.box {
+    background-color: #39aae1;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.appointments {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    color: #5c5c5c;
+}
+
+.appointment_title {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+
+
+.appointment_tex img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    
+}
+
+.appointment_tex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(12, 12, 12, 0.2);
+    
+}
+
+.fm a {
+    text-decoration: none;
+}
+
+.footer_text {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #5c5c5c;
+}
+
+.footer_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 15px;
+  color: #5c5c5c;
+
+}
+
+.footer_1 div {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+
+.footer_mail {
+    color: #ffffff;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.posts a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.posts span {
+    font-size: 10px;
+    color: #39aae1;
+}
+
+.tweets {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.tweets a {
+    text-decoration: none;
+    color: #727272;
+}
+
+.tweets span {
+    font-size: 10px;
+    color: #39aae1;
+}
+
+.social_media {
+    display: flex;
+    justify-content: flex-start;
+    width: 30px;
+    height: 30px;
+    gap: 5px;
+    margin-top: 20px;
+}
